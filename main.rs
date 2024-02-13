@@ -42,7 +42,7 @@ async fn fetch_weather(api_key : &str , city : String) -> Result<(), reqwest::Er
 }
 #[tokio::main]
 async fn main() {
-    let api_key = "e5c9e66275afa5767ef301b14caaca58";
+    let api_key = "<your_api_key>";
     let mut city = String::new();
     println!("Enter the city");
 
